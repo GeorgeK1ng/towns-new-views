@@ -1,0 +1,53 @@
+{
+	"core:rampart" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "other/rampartfort.def" },
+					"citadel" : { "animation" : "other/rampartcitadel.def" },
+					"castle" : { "animation" : "other/rampartcastle.def" },
+					"capitol" : { "animation" : "other/rampartcapitol.def" }
+				}
+			}
+		}
+	},
+	"core:fortress" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "other/fortressfort.def" },
+					"citadel" : { "animation" : "other/fortresscitadel.def" },
+					"castle" : { "animation" : "other/fortresscastle.def" },
+					"capitol" : { "animation" : "other/fortresscapitol.def" }
+				}
+			}
+		}
+	},
+	"core:conflux" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "other/confluxfort.def" },
+					"citadel" : { "animation" : "other/confluxcitadel.def" },
+					"castle" : { "animation" : "other/confluxcastle.def" },
+					"capitol" : { "animation" : "other/confluxcapitol.def" }
+				}
+			}
+		}
+	}
+}
