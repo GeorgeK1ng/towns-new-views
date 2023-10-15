@@ -14,18 +14,18 @@
 		"config/inferno",
 		"config/necropolis",
 		"config/stronghold",
-		"config/dungeon",
-		"config/other"
+		"config/dungeon"
 	],
 	"conflicts" :
     [
-        "hota.NewGfx"
+        "hota.newGraphics"
     ],
 	"changelog" :
     {
         "1.0"   : [ "Initial release" ],
 		"1.01" : [ "Fixed some bugs with yellow flags" ],
-		"1.04" : [ "New graphic added" ]
+		"1.04" : [ "New graphic added" ],
+		"1.05" : [ "New graphic added" ]
     },
 	"compatibility" :
 	{
